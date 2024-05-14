@@ -1,5 +1,18 @@
-import IAM from "aws-sdk/clients/iam.js";
-import MigrationHub from "aws-sdk/clients/migrationhub.js";
+import {
+  CreateServiceLinkedRoleCommand,
+  GetRoleCommand,
+  IAMClient,
+} from "@aws-sdk/client-iam";
+import {
+  MigrationHubClient,
+  CreateProgressUpdateStreamCommand,
+} from "@aws-sdk/client-migration-hub";
 
 console.log("hello!");
-console.log(IAM, MigrationHub);
+console.log(
+  CreateServiceLinkedRoleCommand,
+  GetRoleCommand,
+  IAMClient,
+  MigrationHubClient,
+  CreateProgressUpdateStreamCommand
+);

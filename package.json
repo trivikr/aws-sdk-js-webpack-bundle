@@ -3,7 +3,8 @@
   "private": true,
   "packageManager": "yarn@4.2.2",
   "dependencies": {
-    "aws-sdk": "2.1620.0"
+    "@aws-sdk/client-iam": "3.576.0",
+    "@aws-sdk/client-migration-hub": "3.576.0"
   },
   "devDependencies": {
     "webpack": "^5.91.0",
