@@ -19,11 +19,7 @@ Complete the following tasks:
 Switch to branch `sdk-v2`, install dependencies and build production bundle using webpack:
 
 ```console
-$ git checkout sdk-v2
-
-$ yarn
-
-$ npx webpack
+$ git checkout sdk-v2 && git clean -dfx && yarn && yarn build
 
 $ du -sh dist/main.js
 336K    dist/main.js
@@ -32,11 +28,7 @@ $ du -sh dist/main.js
 Switch to branch `sdk-v3`, install dependencies and build production bundle using webpack:
 
 ```console
-$ git checkout sdk-v3
-
-$ yarn
-
-$ npx webpack
+$ git checkout sdk-v3 && git clean -dfx && yarn && yarn build
 
 $ du -sh dist/main.js
 188K    dist/main.js
