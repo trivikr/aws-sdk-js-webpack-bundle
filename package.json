@@ -2,6 +2,9 @@
   "name": "aws-sdk-js-webpack-bundle",
   "private": true,
   "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "aws-sdk": "2.1620.0"
   },
