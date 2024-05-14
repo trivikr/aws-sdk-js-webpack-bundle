@@ -2,6 +2,9 @@
   "name": "aws-sdk-js-webpack-bundle",
   "private": true,
   "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "@aws-sdk/client-iam": "3.576.0",
     "@aws-sdk/client-migration-hub": "3.576.0"
