@@ -1,0 +1,4 @@
+{
+  "name": "aws-sdk-js-webpack-bundle",
+  "packageManager": "yarn@4.2.2"
+}
